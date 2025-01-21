@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .external{
     color: red;
     text-align: center;
@@ -13,4 +17,35 @@
     height: 500px;
     overflow: hidden;
     background-color: rebeccapurple;
+    border-radius: 32px;
+}
+
+.wrapper{
+    border: 2px solid red;
+
+}
+
+.container{
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.demo{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 25px;
+    margin-right: 250px;
+    transition: all 1s;
+}
+
+.demo:hover{
+    background-color: pink;
+    transform: rotate(45deg);
 }
