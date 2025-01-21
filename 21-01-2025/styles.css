@@ -1,0 +1,16 @@
+.external{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-width: 20px;
+    border-style:dotted;
+    border-color: pink;
+    border: 50px solid green;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    background-color: rebeccapurple;
+}
