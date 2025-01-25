@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Universal Reset */
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: slategrey;
+    gap: 20px;
+    button{
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
